@@ -1,4 +1,4 @@
-name: Api PoI - CI
+name: Api PoI - CD
 
 on:
   workflow_dispatch:
