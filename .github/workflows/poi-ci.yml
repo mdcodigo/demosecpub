@@ -1,0 +1,15 @@
+name: Api PoI - CI
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "apis/poi/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      #GH Action para descargar el repo al agente.
+      - uses: actions/checkout@v2
