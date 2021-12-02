@@ -1,5 +1,7 @@
 # Project Name
 
+Cambio dummy para probar.
+
 The DevOps open hack event is designed to foster learning via implementing DevOps practices with a series of challenges.
 
 https://github.com/microsoft/OpenHack/tree/main/byos
@@ -10,14 +12,15 @@ The application used for this event is a heavily modified and recreated version 
 
 The team environment consists of the following:
 
-* Azure Kubernetes Service (AKS) cluster which has four APIs deployed:
+- Azure Kubernetes Service (AKS) cluster which has four APIs deployed:
 
-  * POI (Trip Points of Interest) - CRUD API written in .Net Core 2 for points of interest on trips
-  * Trips - CRUD open API written in golang 1.11 for trips connected to the client application
-  * UserProfile - CRUD open API written in Node.JS for the users of the client application
+  - POI (Trip Points of Interest) - CRUD API written in .Net Core 2 for points of interest on trips
+  - Trips - CRUD open API written in golang 1.11 for trips connected to the client application
+  - UserProfile - CRUD open API written in Node.JS for the users of the client application
     > Note:PATCH/POST operations not functional
-  * User-Java - API written in Java with POST and PATCH routes plus swagger docs routes for the users of the client application.
-* Mobile Apps - for iOS and Android which will display driving trip data
+  - User-Java - API written in Java with POST and PATCH routes plus swagger docs routes for the users of the client application.
+
+- Mobile Apps - for iOS and Android which will display driving trip data
 
 ## Getting Started
 
@@ -27,8 +30,8 @@ To understand each of the components above in more detail, please visit the read
 
 It is useful but not required to have a basic knowledge of the following topics:
 
-* Kubernetes
-* Azure DevOps (formally VSTS) or Jenkins
+- Kubernetes
+- Azure DevOps (formally VSTS) or Jenkins
 
 ## Resources
 
